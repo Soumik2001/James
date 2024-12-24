@@ -218,7 +218,7 @@ height:auto;
 flex-wrap:wrap;
 position:relative;
 text-align:center;
-margin-top:5px;
+margin-top: 5px;
 display:flex;
 justify-content:space-between;
 
@@ -332,7 +332,7 @@ background:#666666;
   width: 300px;
   min-height: 370px;
   background: #f1f1f1;
-
+margin-bottom: 5px;
   justify-content: space-around;
   align-items: center;
 position:absolute;

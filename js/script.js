@@ -65,6 +65,8 @@ navLinks.forEach(link => link.style.cursor = 'pointer');
 const mainImages = document.querySelectorAll('.topImage img');
 const thumbnails = document.querySelectorAll('.thumbnail');
 
+let activeImg = document.getElementById("mainImage1");
+
 thumbnails.forEach(thumbnail => {
   thumbnail.addEventListener('mouseover', function() {
 
@@ -76,13 +78,10 @@ thumbnails.forEach(thumbnail => {
 
 
     targetImage.classList.add('active');
+activeImg = targetImage;
   });
 
-  thumbnail.addEventListener('mouseleave', function() {
-
-    mainImages.forEach(img => img.classList.remove('active'));
-    document.getElementById('mainImage1').classList.add('active');
-  });
+  
 });
 
 
